@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageButton
+            android:id="@+id/setting_backbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/arrow"
+            android:background="@color/white"
+            android:scaleType="center"
+            android:adjustViewBounds="true"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="설정"
+            android:textSize="20dp"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.25"
+                android:background="@drawable/setting_button"/>
+
+            <Button
+                android:id="@+id/child_append_button"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/setting_button"
+                android:drawableLeft="@drawable/human"
+                android:paddingLeft="10dp"
+                android:text="    연결 기기 관리"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/setting_arlambutton"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/setting_button"
+                android:drawableLeft="@drawable/alarm_image"
+                android:paddingLeft="10dp"
+                android:text="    알람관리"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/black"/>
+
+            <Button
+                android:id="@+id/Setting_Account_Management"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="    계정관리"
+                android:gravity="start|center"
+                android:background="@drawable/setting_button"
+                android:textColor="@color/black"
+
+                android:drawableLeft="@drawable/padlock"
+                android:paddingLeft="10dp"
+                />
+
+            <Button
+                android:id="@+id/Setting_Terms_of_Service"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="    서비스 약관"
+                android:gravity="start|center"
+                android:background="@drawable/setting_button"
+                android:textColor="@color/black"
+
+                android:drawableLeft="@drawable/help"
+                android:paddingLeft="10dp"/>
+
+            <Button
+                android:id="@+id/Setting_service_center_call"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="    고객센터"
+                android:gravity="start|center"
+                android:background="@drawable/setting_button"
+                android:textColor="@color/black"
+                android:drawableLeft="@drawable/telephone"
+                android:paddingLeft="10dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

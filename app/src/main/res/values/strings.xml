@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RUNNING CARE(Parents)</string>
+    <string name="Login_with_Google">Login with Google</string>
+    <string name="Login_with_Naver">Login with Naver</string>
+    <string name="Login_with_Kakao">Login with Kakao</string>
+    <string name="Auto_Login">Auto Login</string>
+    <string name="kakao_app_key">458c962b429b9e0608b5993d04f48b52</string>
+    <string name="naver_client_id">33sMObWCeo7AQrUSacIH</string>
+    <string name="naver_client_secret">jnvYGltc6e</string>
+    <string name="naver_client_name">Login_with_Naver</string>
+</resources>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="연결 기기 관리"
+            android:textSize="20dp" />
+
+        <ImageButton
+            android:id="@+id/child_append_backbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/arrow"
+            android:background="@android:color/transparent"
+
+            android:scaleType="center"
+            android:adjustViewBounds="true" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"/>
+
+            <Button
+                android:id="@+id/append_connect_child"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="추가"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:textColor="@color/Blue"
+
+                android:background="@drawable/append_child"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="9"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/append_firstline"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:background="@drawable/append_setting_button">
+
+                <Button
+                    android:id="@+id/child_setting_first_id"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="6"
+                    android:gravity="start|center_vertical"
+                    android:background="#00ff0000" />
+
+                <Button
+                    android:id="@+id/child_setting_first_dismissbutton"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:text="해제"
+                    android:textColor="@color/Red"
+
+                    android:background="#00ff0000"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/append_secondline"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:background="@drawable/setting_button">
+
+                <Button
+                    android:id="@+id/child_setting_second_id"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="6"
+                    android:gravity="start|center_vertical"
+                    android:background="#00ff0000" />
+
+                <Button
+                    android:id="@+id/child_setting_second_dismissbutton"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:text="해제"
+                    android:textColor="@color/Red"
+
+                    android:background="#00ff0000" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/append_thirdline"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:background="@drawable/setting_button">
+
+                <Button
+                    android:id="@+id/child_setting_third_id"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="6"
+                    android:gravity="start|center_vertical"
+                    android:background="#00ff0000" />
+
+                <Button
+                    android:id="@+id/child_setting_third_dismissbutton"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:background="#00ff0000"
+                    android:text="해제"
+
+                    android:textColor="@color/Red" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/append_fouthline"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:background="@drawable/setting_button">
+
+                <Button
+                    android:id="@+id/child_setting_fourth_id"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="6"
+                    android:gravity="start|center_vertical"
+                    android:background="#00ff0000" />
+
+                <Button
+                    android:id="@+id/child_setting_fourth_dismissbutton"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:text="해제"
+                    android:textColor="@color/Red"
+
+                    android:background="#00ff0000"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
